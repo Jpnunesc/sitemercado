@@ -1,0 +1,9 @@
+.circle{
+    left:50%;
+    top:50%;
+    position: fixed;
+    margin-left:-40px; 
+    width: 6rem; 
+    height: 6rem;
+    margin-top:-40px; 
+  }

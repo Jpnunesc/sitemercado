@@ -1,0 +1,18 @@
+.border{
+    border-bottom: 0.5px solid;
+    border-top: 0.5px solid;
+    margin-top: 2px;
+}
+.color {
+    background: #545454 !important;
+}
+.color-card {
+    background: #e8e5e5;
+}
+.border-bot{
+    border-bottom: 1px solid #545454;
+}
+.img-format {
+    max-width: 100%;
+    border-radius: 30px;
+}

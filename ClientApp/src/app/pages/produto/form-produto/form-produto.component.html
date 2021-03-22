@@ -1,0 +1,62 @@
+<div class="card">
+    <div class="card-header">
+        <h5 class="ibox-title color-font">{{tituloPage}}</h5>
+        <div class="ibox-tools float-right">
+            <a class="btn btn-primary"  routerLink="/produto/listar"> Produtos </a>
+        </div>
+    </div> 
+    <div class="card-body">
+        <form [formGroup]="formulario">
+            <div class="col">
+                <label for="nome" class="control-label required color-font">Imagem do produto:</label>
+                <div class="card w-50">
+                    <div class="card-body color-card-img">
+                        <figure>
+                            <img class="img" [src]="imageUrl" />
+                        </figure>
+                    </div>
+                    <div *ngIf="titulo != 'Detalhar'" style="display: flex;" class="color-card-img">
+                        <a (click)="fileInput.click()"
+                            class="btn btn-secondary margin-bot">{{titulo != 'Cadastrar' ? 'Alterar' : 'Upload'}}</a>
+                            
+                        <!-- <a *ngIf="file" class="btn btn-danger margin-bot"
+                            (click)="apagarImg()">Apagar</a> -->
+                    </div>
+                    <input type="file" #fileInput class="form-control is-invalid"
+                        (change)="onChange(fileInput.files[0])" placeholder=""
+                        style="display: none">
+                </div>
+                <div *ngIf="formulario.get('imagem').hasError('required') && formulario.get('imagem').touched"
+                    class="invalid-feedback">
+                    Imagem é obrigatório.
+                </div>
+            </div>
+                <div class="col" *ngIf="codigo">
+                    <label for="codigo" class="control-label color-font">Código:</label>
+                    <input type="text" class="form-control" formControlName="id" disabled>
+                </div>
+            <div class="col">
+                <label for="nome" class="control-label required color-font">Nome:</label>
+                <input type="text" class="form-control" id="nome" formControlName="nome">
+                <field-errors [control]="formulario.get('nome')">
+                </field-errors>
+            </div>
+            <div class="col">
+                <label for="nome" class="control-label required color-font">Valor:</label>
+                <input type="text" currencyMask [options]="{ prefix: 'R$ ', thousands: '.', decimal: ',' }"
+                    class="form-control" id="valor" formControlName="valor" [readOnly]="disabled">
+                <field-errors [control]="formulario.get('valor')">
+                </field-errors>
+            </div>
+        </form>
+    </div>
+    <div class="card-footer">
+        <div class="ibox-tools float-right">
+            <button *ngIf="titulo != 'Detalhar'" class="btn btn-success" [disabled]="!formulario.valid"
+                (click)="save()">
+                <span class="fa fa-plus"></span> {{titulo}}
+            </button>
+        </div>
+    </div>
+</div>
+<app-loading [loading]="loading"></app-loading>

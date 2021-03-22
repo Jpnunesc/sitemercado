@@ -1,0 +1,8 @@
+.modal-form {
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    width: 30rem;
+    height: 30rem;
+    margin-left: -13%;
+}

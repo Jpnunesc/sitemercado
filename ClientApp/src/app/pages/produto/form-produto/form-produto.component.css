@@ -1,0 +1,25 @@
+.img{
+    width: 10rem;
+    height: 10rem;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.w-50 {
+    width: 30%!important;
+}
+.card {
+    background: #545454 !important;
+}
+.color-card-img {
+    background: aliceblue;
+}
+.margin-bot {
+    width: 10rem;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    width: 10rem;
+}
+color-font{
+    color: aliceblue;
+}
