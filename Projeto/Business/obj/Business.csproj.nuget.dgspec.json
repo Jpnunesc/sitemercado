@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\projetos\\Estudos\\Confitec\\Projeto\\Business\\Business.csproj": {}
+    "C:\\projetos\\Estudos\\sitemercado\\Projeto\\Business\\Business.csproj": {}
   },
   "projects": {
-    "C:\\projetos\\Estudos\\Confitec\\Projeto\\Business\\Business.csproj": {
+    "C:\\projetos\\Estudos\\sitemercado\\Projeto\\Business\\Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projetos\\Estudos\\Confitec\\Projeto\\Business\\Business.csproj",
+        "projectUniqueName": "C:\\projetos\\Estudos\\sitemercado\\Projeto\\Business\\Business.csproj",
         "projectName": "Business",
-        "projectPath": "C:\\projetos\\Estudos\\Confitec\\Projeto\\Business\\Business.csproj",
+        "projectPath": "C:\\projetos\\Estudos\\sitemercado\\Projeto\\Business\\Business.csproj",
         "packagesPath": "C:\\Users\\jpcos\\.nuget\\packages\\",
-        "outputPath": "C:\\projetos\\Estudos\\Confitec\\Projeto\\Business\\obj\\",
+        "outputPath": "C:\\projetos\\Estudos\\sitemercado\\Projeto\\Business\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jpcos\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\projetos\\Estudos\\Confitec\\Projeto\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\projetos\\Estudos\\Confitec\\Projeto\\Domain\\Domain.csproj"
+              "C:\\projetos\\Estudos\\sitemercado\\Projeto\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\projetos\\Estudos\\sitemercado\\Projeto\\Domain\\Domain.csproj"
               }
             }
           }
@@ -88,14 +88,14 @@
         }
       }
     },
-    "C:\\projetos\\Estudos\\Confitec\\Projeto\\Domain\\Domain.csproj": {
+    "C:\\projetos\\Estudos\\sitemercado\\Projeto\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projetos\\Estudos\\Confitec\\Projeto\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\projetos\\Estudos\\sitemercado\\Projeto\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\projetos\\Estudos\\Confitec\\Projeto\\Domain\\Domain.csproj",
+        "projectPath": "C:\\projetos\\Estudos\\sitemercado\\Projeto\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\jpcos\\.nuget\\packages\\",
-        "outputPath": "C:\\projetos\\Estudos\\Confitec\\Projeto\\Domain\\obj\\",
+        "outputPath": "C:\\projetos\\Estudos\\sitemercado\\Projeto\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jpcos\\AppData\\Roaming\\NuGet\\NuGet.Config",

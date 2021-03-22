@@ -6137,11 +6137,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\projetos\\Estudos\\Confitec\\Projeto\\CrossCuttingIoC\\CrossCuttingIoC.csproj",
+      "projectUniqueName": "C:\\projetos\\Estudos\\sitemercado\\Projeto\\CrossCuttingIoC\\CrossCuttingIoC.csproj",
       "projectName": "CrossCuttingIoC",
-      "projectPath": "C:\\projetos\\Estudos\\Confitec\\Projeto\\CrossCuttingIoC\\CrossCuttingIoC.csproj",
+      "projectPath": "C:\\projetos\\Estudos\\sitemercado\\Projeto\\CrossCuttingIoC\\CrossCuttingIoC.csproj",
       "packagesPath": "C:\\Users\\jpcos\\.nuget\\packages\\",
-      "outputPath": "C:\\projetos\\Estudos\\Confitec\\Projeto\\CrossCuttingIoC\\obj\\",
+      "outputPath": "C:\\projetos\\Estudos\\sitemercado\\Projeto\\CrossCuttingIoC\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jpcos\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6158,11 +6158,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\projetos\\Estudos\\Confitec\\Projeto\\Business\\Business.csproj": {
-              "projectPath": "C:\\projetos\\Estudos\\Confitec\\Projeto\\Business\\Business.csproj"
+            "C:\\projetos\\Estudos\\sitemercado\\Projeto\\Business\\Business.csproj": {
+              "projectPath": "C:\\projetos\\Estudos\\sitemercado\\Projeto\\Business\\Business.csproj"
             },
-            "C:\\projetos\\Estudos\\Confitec\\Projeto\\Infra\\Infra.csproj": {
-              "projectPath": "C:\\projetos\\Estudos\\Confitec\\Projeto\\Infra\\Infra.csproj"
+            "C:\\projetos\\Estudos\\sitemercado\\Projeto\\Infra\\Infra.csproj": {
+              "projectPath": "C:\\projetos\\Estudos\\sitemercado\\Projeto\\Infra\\Infra.csproj"
             }
           }
         }

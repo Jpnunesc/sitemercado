@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QAwmv5KyXNClZjBU8I4i5JQ3bviP6qdG6FvJfwemwklO7RRjdS/cPMv95wGzPPV70wZjXZFsue2uiROnFNJ9aQ==",
+  "dgSpecHash": "xyXpqrVD0H/UICpBGwOVNtKrT4NCLR/l6Eel9cB9tNkDr5KQL72QZaL2VguvpNABK5t/BT8moDND8BSsNJ9blA==",
   "success": true,
-  "projectFilePath": "C:\\projetos\\Estudos\\Confitec\\Projeto\\Infra\\Infra.csproj",
+  "projectFilePath": "C:\\projetos\\Estudos\\sitemercado\\Projeto\\Infra\\Infra.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jpcos\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\jpcos\\.nuget\\packages\\fluentvalidation\\9.3.0\\fluentvalidation.9.3.0.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Odwrts+h1YhDBBUqgv2aFpgB9YK6DwxLvtgF0oJq+EBXn1GbcF8JXiRk+jnL7pgfnu+7iar38HdUsRiXiUO+bw==",
+  "dgSpecHash": "f4kAJzCHWFNi7vQVn0ql+nPOSXrXUJImCNWPhfBOoegqVTbhsKaHTTroiTp9WAo8Nz6BYvFMY8Ck9ZagV8YXuQ==",
   "success": true,
-  "projectFilePath": "C:\\projetos\\Estudos\\Confitec\\Projeto\\Api\\Api.csproj",
+  "projectFilePath": "C:\\projetos\\Estudos\\sitemercado\\Projeto\\Api\\Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jpcos\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\jpcos\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.0\\automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",

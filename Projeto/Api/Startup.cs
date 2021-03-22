@@ -12,7 +12,6 @@ using Microsoft.OpenApi.Models;
 using Microsoft.AspNetCore.Authentication;
 using Business.Helpers;
 using System;
-using Microsoft.AspNetCore.Http.Features;
 
 
 namespace Api
@@ -35,10 +34,7 @@ namespace Api
 
             services.AddDbContext<TestContext>(options =>
              options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
-            //services.Configure<FormOptions>(x =>
-            //{
-            //    x.MultipartBodyLengthLimit = 60000000;
-            //});
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Api", Version = "v1" });

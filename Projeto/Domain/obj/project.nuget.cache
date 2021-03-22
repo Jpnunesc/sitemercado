@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tyDU1M7jMin+TE9+UH/PqHG8XDO9Bkc2nsd6QK3TvMEva1qN79EJn+/Zkc4KVUMtwZVlvb7L9L2XZHDnJ2vDOg==",
+  "dgSpecHash": "I7rsXVTOY7Uxfj2BdctPt8JPpcW51T6gvJ7vt3Lr2BCTO07tyU7UKE11obmYE3Z09yvpuO0wz0EYgouxMTAcnw==",
   "success": true,
-  "projectFilePath": "C:\\projetos\\Estudos\\Confitec\\Projeto\\Domain\\Domain.csproj",
+  "projectFilePath": "C:\\projetos\\Estudos\\sitemercado\\Projeto\\Domain\\Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

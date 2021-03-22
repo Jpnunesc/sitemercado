@@ -29,7 +29,6 @@ namespace Infra.Repositories
             List<Expression<Func<TEntity, object>>> expressionIncludes = null)
         {
             var query = DbSet as IQueryable<TEntity>;
-           // query = query.AddIncludes(expressionIncludes);
             return await query.FirstOrDefaultAsync(expressionSearch);
         }
 
@@ -38,7 +37,6 @@ namespace Infra.Repositories
             List<Expression<Func<TEntity, object>>> expressionIncludes = null)
         {
             var query = DbSet as IQueryable<TEntity>;
-            //query = query.AddIncludes(expressionIncludes);
 
             return  await query.Where(expressionSearch).ToListAsync();
         }

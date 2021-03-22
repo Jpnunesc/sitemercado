@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8nXXWOylc+otvI+VV2YJdn79uDDNkHbvlBXn/PWr2aXWnGlOZKYiAHI+Y+dkACTssSVQFwfaBRlnIinp9mGBCw==",
+  "dgSpecHash": "Pqhym5dkLVoLj+sj0bdYtMVu62RZPR66HS0bh4fWk8wfes8AwuhGJFj/LELH49JJPbkCR86msU+kU0f+5q596Q==",
   "success": true,
-  "projectFilePath": "C:\\projetos\\Estudos\\Confitec\\Projeto\\Test.Tests\\Test.Tests.csproj",
+  "projectFilePath": "C:\\projetos\\Estudos\\sitemercado\\Projeto\\Test.Tests\\Test.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jpcos\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\jpcos\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.0\\automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",

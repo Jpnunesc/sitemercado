@@ -9243,11 +9243,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\projetos\\Estudos\\Confitec\\Projeto\\Test.Tests\\Test.Tests.csproj",
+      "projectUniqueName": "C:\\projetos\\Estudos\\sitemercado\\Projeto\\Test.Tests\\Test.Tests.csproj",
       "projectName": "Test.Tests",
-      "projectPath": "C:\\projetos\\Estudos\\Confitec\\Projeto\\Test.Tests\\Test.Tests.csproj",
+      "projectPath": "C:\\projetos\\Estudos\\sitemercado\\Projeto\\Test.Tests\\Test.Tests.csproj",
       "packagesPath": "C:\\Users\\jpcos\\.nuget\\packages\\",
-      "outputPath": "C:\\projetos\\Estudos\\Confitec\\Projeto\\Test.Tests\\obj\\",
+      "outputPath": "C:\\projetos\\Estudos\\sitemercado\\Projeto\\Test.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jpcos\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -9264,8 +9264,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\projetos\\Estudos\\Confitec\\Projeto\\Api\\Api.csproj": {
-              "projectPath": "C:\\projetos\\Estudos\\Confitec\\Projeto\\Api\\Api.csproj"
+            "C:\\projetos\\Estudos\\sitemercado\\Projeto\\Api\\Api.csproj": {
+              "projectPath": "C:\\projetos\\Estudos\\sitemercado\\Projeto\\Api\\Api.csproj"
             }
           }
         }
