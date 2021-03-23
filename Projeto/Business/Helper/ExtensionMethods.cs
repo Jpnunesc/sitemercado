@@ -13,7 +13,7 @@ namespace Business.Helpers
 
         public static UserEntity WithoutPassword(this UserEntity user)
         {
-            //user.Password = null;
+            user.Password = null;
             return user;
         }
         public static string Error(string msg)
