@@ -94,7 +94,7 @@ namespace Business.Services
                 await _repository.Remove(id);
                 return new ReturnView() { Status = true, Message = "Operação realizada com sucesso!" };
             }
-            catch (Exception)
+            catch (Exception ex)
             {
                 return new ReturnView() { Status = false, Message = "Error interno!" };
             }

@@ -50,24 +50,30 @@ export class ListProdutoComponent implements OnInit {
     this.opemModal = true;
   }
   excluir(id) {
-    this.loading = true;
-    this.service.httpDelete(Number(id)).subscribe(el => {
-      this.loading = false;
-      if (el && el.status) {
-        this.toastr.success(el.message)
-      } else {
-        this.toastr.error(el.message);
-      }
-      this.idProduto = '';
-      this.opemModal = false;
+    this.service.httpDelete(Number(id)).subscribe({
+      next: (response) => this.deleteProductSuccess(response),
+      error: () => this.deleteProductError()
+    }).add(() => {
+      this.resetValues();
+    });
+  }
+  resetValues() {
+    this.loading = false;
+    this.idProduto = '';
+    this.opemModal = false;
+  }
+  deleteProductSuccess(el) {
+    if (el && el.status) {
       this.search();
-    }), (error) => {
-      this.loading = false;
-      this.toastr.error('Error interno!');
-      this.idProduto = '';
-      this.opemModal = false;
+      this.toastr.success(el.message)
+    } else {
+      this.deleteProductError(el.message);
     }
   }
+  deleteProductError(msg?) {
+    this.toastr.error(msg || 'Error interno!');
+  }
+
   fecharModal(opem) {
     this.idProduto = '';
     this.opemModal = opem;

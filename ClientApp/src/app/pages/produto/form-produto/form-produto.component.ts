@@ -48,7 +48,6 @@ export class FormProdutoComponent implements OnInit {
     });
   }
   save() {
-
     if (!this.formulario.invalid) {
       this.loading = true;
       // this.formulario.get('imagem').setValue(this.file);
