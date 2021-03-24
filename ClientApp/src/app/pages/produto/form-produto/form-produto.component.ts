@@ -88,11 +88,10 @@ export class FormProdutoComponent implements OnInit {
     this.codigo = true;
     this.service.httpGetId(Number(id)).subscribe(el => {
       this.loading = false;
-      if (el) {
-        this.imageUrl = el.imagem;
-        this.formulario.patchValue(el);
+      if (el && el.status) {
+        this.imageUrl = el.object.imagem;
+        this.formulario.patchValue(el.object);
         this.file = this.formulario.get('imagem').value;
-
       }
     }), (error) => {
       this.loading = false;
@@ -101,18 +100,18 @@ export class FormProdutoComponent implements OnInit {
   }
   onChange = (e) => {
     const file = e;
-      this.getBase64(file)
+    this.getBase64(file)
       .then((result) => {
         this.formulario.get('imagem').setValue(result);
       })
       .catch(e => console.log(e));
-      this.fileName = file.name;
-      this.file = file;
-      const reader = new FileReader();
-      reader.readAsDataURL(file);
-      reader.onload = event => {
+    this.fileName = file.name;
+    this.file = file;
+    const reader = new FileReader();
+    reader.readAsDataURL(file);
+    reader.onload = event => {
       this.imageUrl = reader.result;
-      };
+    };
 
   }
   getBase64 = (file) => new Promise(function (resolve, reject) {

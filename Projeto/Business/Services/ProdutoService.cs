@@ -83,9 +83,20 @@ namespace Business.Services
             _repository?.Dispose();
         }
 
-        public async Task<ProdutoOutput> GetId(int id)
+        public async Task<ReturnView> GetId(int id)
         {
-            return _mapper.Map<ProdutoEntity, ProdutoOutput>(await _repository.Get(x => x.Id == id));
+            ReturnView retorno = new ReturnView();
+            ProdutoOutput produto = new ProdutoOutput();
+            try
+            {
+                retorno = new ReturnView() { Object = _mapper.Map<ProdutoEntity, ProdutoOutput>(await _repository.Get(x => x.Id == id)), Message = "Operação realizada com sucesso!", Status = true };
+            }
+            catch (Exception ex)
+            {
+                retorno = new ReturnView() { Object = null, Message = ex.Message, Status = false };
+
+            }
+            return retorno;
         }
         public async Task<ReturnView> Delete(int id)
         {
@@ -96,7 +107,7 @@ namespace Business.Services
             }
             catch (Exception ex)
             {
-                return new ReturnView() { Status = false, Message = "Error interno!" };
+                return new ReturnView() { Status = false, Message = ex.Message };
             }
         }
 

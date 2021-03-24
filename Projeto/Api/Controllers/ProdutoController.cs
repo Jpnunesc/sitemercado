@@ -33,8 +33,7 @@ namespace Api.Controllers
         {
             try
             {
-                 var rest = JsonConvert.DeserializeObject<ProdutoInput>(Request.Form["produto"]);
-                var produto = await _service.Save(rest);
+                var produto = await _service.Save(JsonConvert.DeserializeObject<ProdutoInput>(Request.Form["produto"]));
                 return Ok(produto);
             }
             catch (Exception ex)

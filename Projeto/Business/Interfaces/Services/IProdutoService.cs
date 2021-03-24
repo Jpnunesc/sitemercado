@@ -14,7 +14,7 @@ namespace Business.Interfaces.Services
     {
         Task<ReturnView> Save(ProdutoInput _produto);
         Task<ReturnView> Update(ProdutoInput _produto);
-        Task<ProdutoOutput> GetId(int id);
+        Task<ReturnView> GetId(int id);
         Task<ReturnView> Delete(int id);
         Task<ReturnView> GetFilter(ProdutoInput _filtro);
     }
