@@ -3,15 +3,10 @@ using Business.Interfaces.Repositories;
 using Business.Interfaces.Services;
 using Business.IO;
 using Business.IO.Produto;
-using Business.IO.Users;
 using Business.Validations;
-using Domain.Entity;
 using Domain.Entitys;
-using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;
-using System.IO;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace Business.Services
