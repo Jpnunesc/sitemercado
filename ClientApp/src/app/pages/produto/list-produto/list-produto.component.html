@@ -16,8 +16,8 @@
               <h5 style="text-align: center;" class="text-dark">{{item.nome}}</h5>
               <p style="text-align: center;" class="small text-muted font-italic">{{item.valor | currency}}</p>
               <div>
-                <button class="btn btn-secondary" title="Editar produto"><i class="fa fa-pencil-square-o" aria-hidden="true" routerLink="/produto/alterar/{{item.id}}"></i></button>
-                <button class="btn btn-danger" title="Excluir produto"><i class="fa fa-times" aria-hidden="true" (click)="modal(item.id)"></i></button>
+                <button class="btn btn-secondary" title="Editar produto" routerLink="/produto/alterar/{{item.id}}"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></button>
+                <button class="btn btn-danger" title="Excluir produto"(click)="modal(item.id)"><i class="fa fa-times" aria-hidden="true" ></i></button>
               </div>
             </div>
           </div>

@@ -6,8 +6,18 @@ import { ListProdutoComponent } from './produto/list-produto/list-produto.compon
 import { FormProdutoComponent } from './produto/form-produto/form-produto.component';
 
 const routes: Routes = [
-  { path: 'login', component: LoginComponent },
-  { path: '', component: LoginComponent },
+  {
+    path: 'login', component: LoginComponent,
+    data: {
+      titulo: 'Login',
+    },
+  },
+  {
+    path: '', component: LoginComponent,
+    data: {
+      titulo: 'Login',
+    },
+  },
   {
     path: 'produto',
     canActivate: [AuthGuard],
